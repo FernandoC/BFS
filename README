@@ -1,4 +1,4 @@
-Name: Fernando Carrillo (fcarril1)
+Name: Fernando Carrillo (fcarril1@ucsc.edu)
 
 Description: The FindPath program reads in a formated infile that has
 the amount of edges, edge connetions and paths to calculate. Using an
@@ -6,7 +6,6 @@ adjacency list FindPath uses Breadth First Search to calculate the
 the shortest path between two edges and prins the result to an outfile
 
 Compiling Instructions: Download all the files and type "make" in SSH
-
 
 Files Submitted: List.c, List.h, ListTest.c, Graph.c, Graph.h, GraphTest.c, FindPath.c, Makefile, and README
 
