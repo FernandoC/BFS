@@ -1,0 +1,31 @@
+Name: Fernando Carrillo (fcarril1)
+Class: CMPS101 w/ Patrick Tantalo
+Assignment: pa4
+
+Description: The FindPath program reads in a formated infile that has
+the amount of edges, edge connetions and paths to calculate. Using an
+adjacency list FindPath uses Breadth First Search to calculate the
+the shortest path between two edges and prins the result to an outfile
+
+
+Files Submitted: List.c, List.h, ListTest.c, Graph.c, Graph.h, GraphTest.c, FindPath.c, Makefile, and README
+
+List.c:        Contains the doubly linked List ADT and all its functions.
+
+List.h:        Contains all the functions names in List.c to be used in Graph.c and FindPath.c
+
+ListTest.c:    Contains a program that uses the List ADT to make sure everything
+                 is in order by calling all of its functions.
+ 
+Graph.c        Contains the adjacency list and all other fields of the Graph ADT and all its functions 
+
+Graph.h        Contains all the function names in Graph.c to be used in FindPath.c
+
+GraphTest.c    Tests the Graph ADT and all of its functions. 
+
+FindPath.c:    Reads in a formatted file and adds edges into a Graph, then it proceedes to run BFS on
+               the graph to fins the distance between certain vertices.  
+
+Makefile:        Compiles everything and makes the FindPath  program into a jar file.
+
+README:          The title serves its purpose. 
